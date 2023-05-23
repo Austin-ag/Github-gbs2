@@ -1,25 +1,26 @@
 {
-    "name": "cn-ninja-invaders-gbs",
-    "version": "0.0.0",
+    "name": "Tutorial",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "core": "*"
     },
     "files": [
-        "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
     "targetVersions": {
-        "target": "1.13.18",
-        "targetId": "arcade"
+        "branch": "v1.12.30",
+        "tag": "v1.12.30",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/33228b1cc7e1bea3f728c26a6047bdef35fd2c09",
+        "target": "1.12.30",
+        "pxt": "8.5.41"
     },
-    "supportedTargets": [
-        "arcade"
-    ],
     "preferredEditor": "blocksprj"
 }
